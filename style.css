@@ -1,0 +1,1825 @@
+/*Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*main styling*/
+html,body{
+    font-family: sans-serif;
+}
+.main-head{
+    background-image: url(2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 641px;
+}
+.main{
+    padding-top: 30px;
+}
+.logo{
+    background-image: url(logo.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 37px;
+    width: 12%;
+    margin-left: 115px;
+    cursor: pointer;
+}
+.menu{
+    margin-left: 480px;
+    margin-top: -28px !important;
+}
+.menu .current{
+    color: rgb(180, 133, 99);
+}
+.menu ul li:hover,
+.menu ul li.current{
+    color: rgb(180, 133, 99);
+}
+.main ul li{
+    display: inline;
+    margin-left: 10px;
+    font-family: monospace;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+.main-2{
+    margin-top: 100px;
+}
+.main-part-1{
+    margin-left: 630px;
+}
+.main-part-1 i{
+    font-size: 14px;
+    color: rgb(180, 133, 99);
+}
+.main-part-2 p{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 15px;
+    color: white;
+    letter-spacing: 4px;
+}
+.main-part-2 h1{
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(226, 226, 226);
+    letter-spacing: 15px;
+    margin-top: 20px;
+}
+.main-2 button{
+    height: 45px;
+    width: 12%;
+    color: white;
+    background-color: rgba(245, 222, 179, 0);
+    border: solid 1px white;
+    text-align: center;
+    margin-left: 600px;
+    margin-top: 45px;
+}
+.main-2 button:hover{
+    color: black;   
+    background-color: white;
+    transition-duration: 0.8s;
+    cursor: pointer;
+}
+.main-part-3{
+    writing-mode: sideways-lr;
+    margin-top: -200px !important;
+    font-size: 18px;
+    margin-left: 40px;
+}
+.main-part-3 h2{
+    color: rgb(180, 133, 99);
+    font-family: 'Times New Roman', Times, serif;
+}
+.main-part-3 p{
+    color: white;
+}
+.main-3{
+    margin-top: 120px;
+    margin-left: 120px;
+}
+.main3{
+    background-color: white;
+    height: 60px;
+    width: 71.5%;
+    padding-top: 20px;
+    cursor: pointer;
+}
+.main3 i{
+    color: rgb(180, 133, 99);
+}
+.main3 ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+.fa-calendar{
+    margin-left: 100px;
+}
+.main3 .fa-angle-down{
+    margin-left: 50px;
+}
+.check1 hr{
+    transform: rotate(90deg);
+    width: 25%;
+    margin-left: 170px;
+    opacity: 0.3;
+}
+.check2 hr{
+    transform: rotate(90deg);
+    width: 25%;
+    margin-left: 180px;
+    opacity: 0.3;
+}
+.check3 hr{
+    transform: rotate(90deg);
+    width: 40%;
+    margin-left: 105px;
+    opacity: 0.3;
+}
+.check4 hr{
+    transform: rotate(90deg);
+    width: 40%;
+    margin-left: 115px;
+    opacity: 0.3;
+}
+.check5 hr{
+    transform: rotate(90deg);
+    width: 40%;
+    margin-left: 115px;
+    opacity: 0.3;
+}
+
+.main3 button{
+    height: 60px;
+    width: 20%;
+    float: right;
+    margin-right: -168px !important;
+    margin-top: -20px !important;
+    background-color: rgb(204, 147, 106);
+    border: solid 1px rgb(180, 133, 99);
+}
+
+@keyframes button2{
+    form{
+        background-color: none;
+    }
+    to{
+        background-color: white;
+    }
+}
+.main-3 button:hover{
+    background-color: rgb(41, 40, 40);  
+    border: solid 1px rgb(41, 40, 40); 
+    color: white;
+    animation-direction: reverse;
+    animation-name: button1;
+    animation-duration: 0.2s;
+    cursor: pointer;
+}
+.experience{
+    margin: 110px;
+    height: 485px;
+}
+.experience1 i{
+    color: rgb(240, 162, 106);
+    font-size: 13px;
+}
+.experience1 p{
+    color: rgb(124, 123, 123);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 5px;
+    margin-top: 15px;
+}
+.experience1 h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    margin-top: 10px;
+    color: rgb(43, 42, 42);
+}
+.experience2{
+    line-height: 1.8;
+    margin-top: 25px;
+}
+.experience2 p{
+    font-size: 15px;
+    color: rgb(99, 98, 98);
+}
+.experience3{
+    margin-top: 30px;
+    cursor: pointer;
+}
+.experience3 i{
+    font-size: 35px;
+    color: rgb(160, 119, 90);
+}
+.experience3 p{
+    margin-left: 50px;
+    margin-top: -40px !important;
+    font-size: 15px;
+    color: rgb(99, 98, 98);
+}
+.experience3 h1{
+    font-size: 26px;
+    margin-left: 50px;
+    color: rgb(160, 119, 90);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.experience4{
+    margin-left: 600px;
+    margin-top: -370px !important;
+}
+.img8{
+    background-image: url(8.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    width: 50%;
+}
+.img9{
+    background-image: url(2\ \(1\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    width: 50%;
+    margin-left: 290px;
+    margin-top: -450px !important;
+}
+.luxury{
+    background-color: whitesmoke;
+    height: 1200px;
+    padding: 100px;
+}
+.luxury1 p{
+    letter-spacing: 3px;
+    color: rgb(99, 98, 98);
+    font-family: monospace;
+    font-size: 17px;
+}
+.luxury1 h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    opacity: 0.8;
+}
+.luxury2{
+    margin-top: 25px;
+    overflow: hidden;
+    height: 475px;
+    width: 32%;
+}
+.room2{
+    background-image: url(1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: transform 0.8s;
+}
+.room2:hover, 
+.room2.current{
+    transform: scale(1.1);
+    filter: brightness(0.8);
+}
+.room-part2{
+    padding-top: 240px;
+    margin-left: 30px; 
+    color: rgb(226, 226, 226);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 35px;
+}
+.room-part2 hr{
+    width: 17%;
+    opacity: 0.7;
+    margin-top: 10px;
+}
+.room2 p,h2{
+    cursor: pointer;
+}
+.room2 button{
+    height: 60px;
+    margin-left: 315px;
+    width: 8.5%;
+    background-color: rgba(255, 255, 255, 0);
+    border: solid 1px white;
+    color: white;
+    writing-mode: sideways-lr;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.room-part3{
+    opacity: 0;
+    margin-top: 10px;
+    margin-left: 30px;
+    letter-spacing: 5px;
+    color: white;
+    background-size: cover;
+    font-size: 15px;
+    height: 100px;
+}
+.room-part3 p{
+    margin-left: 200px;
+    font-size: 13px;
+    margin-top: -20px !important;
+}
+.room-part3 p:hover,
+.room-part3 p.currentr{
+    color: rgb(236, 172, 53);
+}
+.room-part3:hover,
+.room-part3.current{
+    opacity: 1;
+}
+.luxury3{
+    margin-top: -475px !important;
+    overflow: hidden;
+    height: 475px;
+    width: 32%;
+    margin-left: 400px;
+}
+.room3{
+    background-image: url(2\ \(2\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.room3:hover, 
+.room3.current{
+    transform: scale(1.1);
+    transition-duration: 1s;
+    filter: brightness(0.8);
+}
+.room-part4{
+    padding-top: 240px;
+    margin-left: 30px; 
+    color: rgb(226, 226, 226);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 35px;
+}
+.room-part4 hr{
+    width: 17%;
+    opacity: 0.7;
+    margin-top: 10px;
+}
+.room3 p,h2{
+    cursor: pointer;
+}
+.room3 button{
+    height: 60px;
+    margin-left: 315px;
+    width: 8.5%;
+    background-color: rgba(255, 255, 255, 0);
+    border: solid 1px white;
+    color: white;
+    writing-mode: sideways-lr;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.room-part5{
+    opacity: 0;
+    margin-top: 10px;
+    margin-left: 30px;
+    letter-spacing: 5px;
+    color: white;
+    background-size: cover;
+    font-size: 15px;
+    height: 100px;
+}
+.room-part5 p{
+    margin-left: 200px;
+    font-size: 13px;
+    margin-top: -20px !important;
+}
+.room-part5 p:hover,
+.room-part5 p.current{
+    color: rgb(236, 172, 53);
+}
+.room-part5:hover,
+.room-part5.current{
+    opacity: 1;
+}
+.luxury4{
+    margin-top: -475px !important;
+    overflow: hidden;
+    height: 475px;
+    margin-left: 795px;
+}
+.room4{
+    background-image: url(3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 475px;
+    width: 100%;
+    object-fit: cover;
+    transition: transform 0.8s;
+}
+.room4:hover, 
+.room4.current{
+    transform: scale(1.1);
+    width: 100%;
+    filter: brightness(0.8);
+}
+.room-part6{
+    padding-top: 240px;
+    margin-left: 30px; 
+    color: rgb(226, 226, 226);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 35px;
+}
+.room-part6 hr{
+    width: 17%;
+    opacity: 0.7;
+    margin-top: 10px;
+}
+.room4 p,h2{
+    cursor: pointer;
+}
+.room4 button{
+    height: 60px;
+    margin-left: 315px;
+    width: 8.5%;
+    background-color: rgba(255, 255, 255, 0);
+    border: solid 1px white;
+    color: white;
+    writing-mode: sideways-lr;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.room-part7{
+    opacity: 0;
+    margin-top: 10px;
+    margin-left: 30px;
+    letter-spacing: 5px;
+    color: white;
+    background-size: cover;
+    font-size: 15px;
+    height: 100px;
+}
+.room-part7 p{
+    margin-left: 200px;
+    font-size: 13px;
+    margin-top: -15px !important;
+}
+.room-part7 p:hover,
+.room-part7 p.current{
+    color: rgb(236, 172, 53);
+}
+.room-part7:hover,
+.room-part7.current{
+    opacity: 1;
+}
+.luxury5{
+    margin-top: 30px;
+    overflow: hidden;
+    height:350px;
+    width: 49%;
+}
+.room5{
+    background-image: url(4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.room5:hover, 
+.room5.current{
+    transform: scale(1.1);
+    transition-duration: 1s;
+    filter: brightness(0.8);
+}
+.room-part8{
+    padding-top: 130px;
+    margin-left: 40px; 
+    color: rgb(226, 226, 226);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 35px;
+}
+.room-part8 hr{
+    width: 17%;
+    opacity: 0.7;
+    margin-top: 10px;
+}
+.room5 p,h2{
+    cursor: pointer;
+}
+.room5 button{
+    height: 60px;
+    margin-left: 480px;
+    width: 8.5%;
+    background-color: rgba(255, 255, 255, 0);
+    border: solid 1px white;
+    color: white;
+    writing-mode: sideways-lr;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.room-part9{
+    opacity: 0;
+    margin-top: 10px;
+    margin-left: 60px;
+    letter-spacing: 5px;
+    color: white;
+    background-size: cover;
+    font-size: 15px;
+    height: 100px;
+}
+.room-part9 p{
+    margin-left: 200px;
+    font-size: 13px;
+    margin-top: -15px !important;
+}
+.room-part9 p:hover,
+.room-part9 p.current{
+    color: rgb(236, 172, 53);
+}
+.room-part9:hover,
+.room-part9.current{
+    opacity: 1;
+    margin-left: 40px;
+}
+.luxury6{
+    margin-top: -350px !important;
+    overflow: hidden;
+    margin-left: 600px; 
+    height: 350px;
+    width: 48%;
+}
+.room6{
+    background-image: url(7.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.room6:hover, 
+.room6.current{
+    transform: scale(1.1);
+    transition-duration: 1s;
+    filter: brightness(0.8);
+}
+.room-part10{
+    padding-top: 130px;
+    margin-left: 40px; 
+    color: rgb(226, 226, 226);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 35px;
+}
+.room-part10 hr{
+    width: 17%;
+    opacity: 0.7;
+    margin-top: 10px;
+}
+.room6 p,h2{
+    cursor: pointer;
+}
+.room6 button{
+    height: 60px;
+    margin-left: 490px;
+    width: 8.5%;
+    background-color: rgba(255, 255, 255, 0);
+    border: solid 1px white;
+    color: white;
+    writing-mode: sideways-lr;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.room-part11{
+    opacity: 0;
+    margin-top: 10px;
+    margin-left: 60px;
+    letter-spacing: 5px;
+    color: white;
+    background-size: cover;
+    font-size: 15px;
+    height: 100px;
+}
+.room-part11 p{
+    margin-left: 200px;
+    font-size: 13px;
+    margin-top: -15px !important;
+}
+.room-part11 p:hover,
+.room-part11 p.current{
+    color: rgb(236, 172, 53);
+}
+.room-part11:hover,
+.room-part11.current{
+    opacity: 1;
+    margin-left: 40px;
+}
+
+.service{
+    background-color: rgb(24, 24, 24);
+    height: 800px;
+}
+.service1{
+    padding: 120px;
+}
+.service-part1{
+    line-height: 40px;
+}
+.service-part1 p{
+    color: rgb(160, 119, 90);
+}
+.service-part1 h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 45px;
+}
+.service-part2{
+    line-height: 25px;
+    margin-top: 40px;
+}
+.service-part2 p{
+    color: rgb(139, 139, 139);
+}
+.service-part3{
+    margin-top: 30px;
+    cursor: pointer;
+}
+.service-part3 i{
+    font-size: 35px;
+    color: rgb(160, 119, 90);
+}
+.service-part3 p{
+    margin-left: 50px;
+    margin-top: -40px !important;
+    font-size: 15px;
+    color: rgb(99, 98, 98);
+}
+.service-part3 h1{
+    font-size: 26px;
+    margin-left: 50px;
+    color: rgb(160, 119, 90);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.service2{
+    margin-left: 550px;
+    margin-top: -480px !important;
+}
+.img10{
+    background-image: url(1\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 220px;
+    width: 45%;
+}
+.service2-1{
+    background-color: white;
+    height: 300px;
+    width: 45%;
+}
+.clean{
+    padding-top: 50px;
+    margin-left: 40px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;  
+    color: rgb(61, 61, 61); 
+}
+.monthth{
+    margin-left: 100px;
+    margin-top: -25px !important;
+}
+.dollar{
+    color: rgb(199, 139, 96);
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 40px;
+    margin-top: 10px !important;
+}
+.service-part5{
+    margin-left: 50px;
+    margin-top: 30px;
+    line-height: 20px;
+    color: rgb(83, 83, 83);
+}
+.all1{
+    margin-left: 30px;
+    margin-top: -18px !important;
+}
+.all2{
+    margin-left: 30px;
+    margin-top: -18px !important;
+}
+.all3{
+    margin-left: 30px;
+    margin-top: -18px !important;
+}
+.img11{
+    background-image: url(2\ \(3\).jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 220px;
+    width: 100%;
+}
+.service2-2{
+    background-color: white;
+    height: 520px;
+    width: 45%;
+    margin-left: 400px;
+    margin-top: -520px !important;
+}
+.clean{
+    padding-top: 50px;
+    margin-left: 40px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;  
+    color: rgb(61, 61, 61); 
+}
+.monthth{
+    margin-left: 100px;
+    margin-top: -25px !important;
+}
+.dollar{
+    color: rgb(199, 139, 96);
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 40px;
+    margin-top: 10px !important;
+}
+.service-part7{
+    margin-left: 50px;
+    margin-top: 30px;
+    line-height: 20px;
+    color: rgb(83, 83, 83);
+}
+.all1{
+    margin-left: 30px;
+    margin-top: -18px !important;
+}
+.all2{
+    margin-left: 30px;
+    margin-top: -18px !important;
+}
+.all3{
+    margin-left: 30px;
+    margin-top: -18px !important;
+}
+.pro-img{
+    background-image: url(2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 480px;
+    filter: brightness(0.9);
+    background-attachment: fixed;
+}
+.promotion1{
+    text-align: center;
+    padding-top: 100px;
+}
+.star{
+    color: rgb(214, 169, 54);
+}
+.promotion1 p{
+    margin-top: 10px;
+    letter-spacing: 5px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.promotion h1{
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: px;
+    font-size: 50px;
+    color: white;
+    letter-spacing: 2px;
+}
+.play{
+    margin-top: 30px;
+    font-size: 30px;
+    border-radius: 50%;
+    background-color: white;
+    color: rgb(214, 169, 54);
+    height: 90px;
+    width: 7%;
+    margin-left: 630px;
+    border: solid 3px rgb(156, 139, 92);
+}
+.play i{
+    margin-top: 25px;
+}
+@keyframes play{
+    form{
+        background-color: white;
+    }
+    to{
+        background-color: rgb(255, 255, 255);
+    }
+}
+.play:hover{  
+    background-color: rgba(240, 248, 255, 0);
+    color: white;
+    border: solid 3px white;
+    animation-direction: reverse;
+    animation-name: play;
+    animation-duration: 0.3s;
+}
+.facility{
+    margin: 120px;
+    display: flex;
+    flex-direction: column;
+}
+.facility1{
+    line-height: 40px;
+}
+.facility1 p{
+    color: rgb(87, 86, 86);
+}
+.facility h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    color: rgb(31, 31, 31);
+}
+.facility2{
+    border: solid 2px rgb(236, 224, 209);
+    height: 210px;
+    width: 30%;
+    margin-top: 30px;
+}
+.facility2 i{
+    translate: 20px;
+    font-size: 37px;
+    padding-top: 20px;
+    color: burlywood;
+}
+.facility2 h2{
+    padding-top: 20px;
+    translate: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(36, 35, 35);
+}
+.facility2 p{
+    translate: 20px;
+    padding-top: 10px;
+    font-size: 15px;
+    line-height: 23px;
+    color: rgb(90, 89, 89);
+}
+.facility3{
+    border: solid 2px rgb(236, 224, 209);
+    height: 210px;
+    width: 30%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-top: -210px !important;
+    translate: -35px;
+}
+.facility3 i{
+    translate: 20px;
+    font-size: 37px;
+    padding-top: 20px;
+    color: burlywood;
+}
+.facility3 h2{
+    padding-top: 20px;
+    translate: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(36, 35, 35);
+}
+.facility3 p{
+    translate: 20px;
+    padding-top: 10px;
+    font-size: 15px;
+    line-height: 23px;
+    color: rgb(90, 89, 89);
+}
+.facility4{
+    border: solid 2px rgb(236, 224, 209);
+    height: 210px;
+    width: 30%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    margin-top: -210px !important;
+    translate: -70px;
+}
+.facility4 i{
+    translate: 20px;
+    font-size: 37px;
+    padding-top: 20px;
+    color: burlywood;
+}
+.facility4 h2{
+    padding-top: 20px;
+    translate: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(36, 35, 35);
+}
+.facility4 p{
+    translate: 20px;
+    padding-top: 10px;
+    font-size: 15px;
+    line-height: 23px;
+    color: rgb(90, 89, 89);
+}
+.facility5{
+    border: solid 2px rgb(236, 224, 209);
+    height: 210px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    margin-top: 30px;
+}
+.facility5 i{
+    translate: 20px;
+    font-size: 37px;
+    padding-top: 20px;
+    color: burlywood;
+}
+.facility5 h2{
+    padding-top: 20px;
+    translate: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(36, 35, 35);
+}
+.facility5 p{
+    translate: 20px;
+    padding-top: 10px;
+    font-size: 15px;
+    line-height: 23px;
+    color: rgb(90, 89, 89);
+}
+.facility6{
+    border: solid 2px rgb(236, 224, 209);
+    height: 210px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    translate: 355px;
+    margin-top: -210px !important;
+}
+.facility6 i{
+    translate: 20px;
+    font-size: 37px;
+    padding-top: 20px;
+    color: burlywood;
+}
+.facility6 h2{
+    padding-top: 20px;
+    translate: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(36, 35, 35);
+}
+.facility6 p{
+    translate: 20px;
+    padding-top: 10px;
+    font-size: 15px;
+    line-height: 23px;
+    color: rgb(90, 89, 89);
+}
+.facility7{
+    border: solid 2px rgb(236, 224, 209);
+    height: 210px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    translate: 710px;
+    margin-top: -210px !important;
+}
+.facility7 i{
+    translate: 20px;
+    font-size: 37px;
+    padding-top: 20px;
+    color: burlywood;
+}
+.facility7 h2{
+    padding-top: 20px;
+    translate: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(36, 35, 35);
+}
+.facility7 p{
+    translate: 20px;
+    padding-top: 10px;
+    font-size: 15px;
+    line-height: 23px;
+    color: rgb(90, 89, 89);
+}
+.client-image{
+    background-image: url(2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 550px;
+    filter: brightness(0.9);
+}
+.client1{
+    display: flex;
+    flex-direction: column;
+    padding-top: 190px;
+}
+.test{
+    color: white;
+    translate: 335px;
+    letter-spacing: 4px;
+    font-size: 13px;
+}
+.client1 h2{
+    color: white;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    translate: 335px;
+    margin-top: 10px;
+}
+.client1 hr{
+    width: 5%;
+    opacity: 0.4;
+    align-self: center;
+    translate: -305px;
+    margin-top: 10px;
+}
+.test2{
+    color: white;
+    line-height: 22px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-self: center;
+    padding-top: 10px;
+    translate: 25px;
+}
+.client2{
+    translate: 340px;
+    padding-top: 10px;
+}
+.client-image-2{
+    background-image: url(4\ \(1\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 5%;
+    height: 70px;
+    border-radius: 35px;
+}
+.stars2{
+    font-size: 11px;
+    color: rgb(238, 187, 93);
+    translate: 80px;
+    margin-top: -60px !important;
+}
+.client-part-2{
+    translate: 80px;
+}
+.client2 h3{
+    color: white;
+    font-size: 13px;
+    padding-top: 7px;
+}
+.client2 p{
+    color: white;
+    font-size: 12px;
+    padding-top: 7px;
+}
+.reserve1{
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+.img1{
+    overflow: hidden;
+    width: 50%;
+    height: 380px;
+}
+.reserve-img-1{
+    background-image: url(res1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+.reserve-img-1:hover,
+.reserve-img-1.current{
+    transform: scale(1.1);
+    transition-duration: 1s;
+    cursor: pointer;
+}
+.reserve-part-1{
+    align-self: flex-end;
+    background-color: rgb(240, 238, 238);
+    width: 50%;
+    height: 380px;
+    margin-top: -380px !important;
+    padding: 30px;
+}
+.disco{
+    padding-top: 50px;
+    font-size: 14px;
+    color: rgb(68, 68, 68);
+    font-family: monospace;
+    letter-spacing: 2px;
+}
+.reserve-part-1 h2{
+    padding-top: 10px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(34, 34, 34);
+}
+.intilla{
+    font-size: 15px;
+    color: rgb(68, 68, 68);
+    line-height: 25px;
+    padding-top: 20px;
+}
+.reserve-part-1 button{
+    padding: 13px;
+    width: 25%;
+    background-color: #ab8a62;
+    border: solid 1px #ab8a62;
+    color: white;
+}
+.reserve-part-1 button:hover{
+    background-color: black;
+    color: white;
+    transition-duration: 0.7s;
+    border: solid 1px black;
+    cursor: pointer;
+}
+.reserve2{
+    display: flex;
+    flex-direction: column;
+    margin-top: -100px !important;
+    translate: 100px;
+}
+.reserve-part-2{
+    background-color: rgb(240, 238, 238);
+    width: 42.6%;
+    height: 380px;
+    padding: 30px;
+}
+.disco{
+    padding-top: 50px;
+    font-size: 14px;
+    color: rgb(68, 68, 68);
+    font-family: monospace;
+    letter-spacing: 2px;
+}
+.reserve-part-2 h2{
+    padding-top: 10px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(34, 34, 34);
+}
+.intilla{
+    font-size: 15px;
+    color: rgb(68, 68, 68);
+    line-height: 25px;
+    padding-top: 20px;
+}
+.reserve-part-2 button{
+    padding: 13px;
+    width: 25%;
+    background-color: #ab8a62;
+    border: solid 1px #ab8a62;
+    color: white;
+}
+.reserve-part-2 button:hover{
+    background-color: black;
+    color: white;
+    transition-duration: 0.7s;
+    border: solid 1px black;
+    cursor: pointer;
+}
+.img2{
+    width: 42.6%;
+    height: 380px;
+    overflow: hidden;
+    display: flex;
+    align-self: flex-end;
+    translate: -199px;
+    margin-top: -380px !important;
+}
+.reserve-img-2{
+    background-image: url(relax.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+.reserve-img-2:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+.img3{
+    width: 42.6%;
+    height: 380px;
+    overflow: hidden;
+    translate: 100px;
+}
+.reserve-img-3{
+    background-image: url(fitness.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+.reserve-img-3:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+.reserve3{
+    display: flex;
+    flex-direction: column;
+}
+.reserve-part-3{
+    background-color: rgb(240, 238, 238);
+    width: 42.6%;
+    height: 380px;
+    padding: 30px;
+    align-self: flex-end;
+    translate: -99px;
+    margin-top: -380px !important;
+}
+.disco{
+    padding-top: 50px;
+    font-size: 14px;
+    color: rgb(68, 68, 68);
+    font-family: monospace;
+    letter-spacing: 2px;
+}
+.reserve-part-3 h2{
+    padding-top: 10px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(34, 34, 34);
+}
+.intilla{
+    font-size: 15px;
+    color: rgb(68, 68, 68);
+    line-height: 25px;
+    padding-top: 20px;
+}
+.reserve-part-3 button{
+    padding: 13px;
+    width: 25%;
+    background-color: #ab8a62;
+    border: solid 1px #ab8a62;
+    color: white;
+}
+.reserve-part-3 button:hover{
+    background-color: black;
+    color: white;
+    transition-duration: 0.7s;
+    border: solid 1px black;
+    cursor: pointer;
+}
+.reserve-part-4{
+    background-color: rgb(240, 238, 238);
+    width: 42.6%;
+    height: 380px;
+    padding: 30px;
+    translate: 100px;
+}
+.disco{
+    padding-top: 50px;
+    font-size: 14px;
+    color: rgb(68, 68, 68);
+    font-family: monospace;
+    letter-spacing: 2px;
+}
+.reserve-part-4 h2{
+    padding-top: 10px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(34, 34, 34);
+}
+.intilla{
+    font-size: 15px;
+    color: rgb(68, 68, 68);
+    line-height: 25px;
+    padding-top: 20px;
+}
+.reserve-part-4 button{
+    padding: 13px;
+    width: 25%;
+    background-color: #ab8a62;
+    border: solid 1px #ab8a62;
+    color: white;
+}
+.reserve-part-4 button:hover{
+    background-color: black;
+    color: white;
+    transition-duration: 0.7s;
+    border: solid 1px black;
+    cursor: pointer;
+}
+.reserve4{
+    display: flex;
+}
+.img4{
+    height: 380px;
+    width: 42.7%;
+    overflow: hidden;
+    flex-direction: row;
+    translate: 100px;
+}
+.reserve-img-4{
+    background-image: url(pool.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+.reserve-img-4:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+.blog{
+    height: 800px;
+    background-color: rgb(24, 24, 24);
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.blog-1 {
+    padding: 50px;
+    translate: 70px;
+    line-height: 40px;
+}
+.blog-1 p{
+    color: #ab8a62;
+    letter-spacing: 1px;
+}
+.blog-1 h1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    letter-spacing: 2px;
+}
+.blog-2{
+    translate: 120px;
+    height: 550px;
+    width: 26%;
+    overflow: hidden;
+}
+.blog-img-2{
+    background-image: url(bath.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    width: 100%;
+}
+.blog-img-2:hover{
+    height: 430px;
+    transition-duration: 1s;
+    transform: scale(1.1);
+    filter: brightness(0.8);
+}
+.blog-2 button{
+    width: 13%;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border: solid 1px rgba(255, 255, 255, 0.849);
+    margin: 30px;
+}
+.blog-part-2{
+    color: black;
+    background-color: white;
+    height: 130px;
+    width: 70%;
+    translate: 55px;
+    margin-top: 260px;
+}
+.blog-part-2 p{
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: rgb(83, 83, 83);
+    padding: 20px;
+}
+.blog-part-2 h2{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    translate: 20px;
+    margin-top: -10px !important;
+    color: rgb(31, 31, 31);
+}
+.blog-3{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-top: -550px !important;
+    overflow: hidden;
+    height: 550px;
+    width: 26%;
+}
+.blog-img-3{
+    background-image: url(fitness2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    width: 100%;
+}
+.blog-img-3:hover{
+    height: 430px;
+    transform: scale(1.1);
+    transition-duration: 1s;
+    filter: brightness(0.8);
+}
+.blog-3 button{
+    width: 13%;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border: solid 1px rgba(255, 255, 255, 0.849);
+    margin: 30px;
+}
+.blog-part-3{
+    color: black;
+    background-color: white;
+    height: 130px;
+    width: 70%;
+    translate: 55px;
+    margin-top: 260px;
+}
+.blog-part-3 p{
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: rgb(83, 83, 83);
+    padding: 20px;
+}
+.blog-part-3 h2{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    translate: 20px;
+    margin-top: -10px !important;
+    color: rgb(31, 31, 31);
+}
+.blog-4{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    margin-top: -550px !important;
+    overflow: hidden;
+    height: 550px;
+    width: 26%;
+    translate: -120px;
+}
+.blog-img-4{
+    background-image: url(6.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    width: 100%;
+}
+.blog-img-4:hover{
+    height: 430px;
+    transform: scale(1.1);
+    transition-duration: 1s;
+    filter: brightness(0.8);
+}
+.blog-4 button{
+    width: 13%;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border: solid 1px rgba(255, 255, 255, 0.849);
+    margin: 30px;
+}
+.blog-part-4{
+    color: black;
+    background-color: white;
+    height: 130px;
+    width: 70%;
+    translate: 55px;
+    margin-top: 260px;
+}
+.blog-part-4 p{
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: rgb(83, 83, 83);
+    padding: 20px;
+}
+.blog-part-4 h2{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    translate: 20px;
+    margin-top: -10px !important;
+    color: rgb(31, 31, 31);
+}
+.booking-img{
+    background-image: url(2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 520px;
+}
+.stars-3{
+    font-size: 13px;
+    color: rgb(221, 163, 76);
+}
+.booking-1{
+    translate: 120px;
+    padding-top: 140px;
+}
+.booking-1 p{
+    font-size: 25px;
+    color: rgb(243, 238, 238);
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin-top: 40px;
+}
+.booking-2{
+    margin-top: 20px;
+    padding: 30px;
+    translate: 95px;
+    color: rgb(219, 216, 216);
+}
+.booking-2 i{
+    font-size: 35px;
+}
+.res{
+    translate: 50px;
+    margin-top: -40px !important;
+}
+.call{
+    padding-top: 20px;
+    translate: 5px;
+}
+.call i{
+    font-size: 15px;
+}
+.booking-3{
+    display: flex;
+    flex-direction: column;
+    height: 480px;
+    width: 32.5%;
+    background-color: rgb(248, 246, 246);
+    translate: 780px;
+    margin-top: -300px !important;
+    padding-left: 10px;
+}
+.booking-part-1{
+    padding: 30px;
+}
+.booking-part-1 p{
+    font-family: sans-serif;
+    font-size: 13px;
+    color: rgb(71, 71, 71);
+    letter-spacing: 5px;
+}
+.booking-part-1 h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: rgb(51, 51, 51);
+    padding-top: 10px;
+}
+.booking-3 hr{
+    width: 81%;
+    margin-top: -10px !important;
+    translate: 32px;
+    opacity: 0.5;
+}
+
+.in{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 21px;
+    width: 82%;
+    translate: 30px;
+    margin-top: 20px;
+}
+.in i{
+    translate: 130px;
+    color: #ab8a62;
+}
+.out{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 21px;
+    width: 82%;
+    translate: 30px;
+    margin-top: 20px;
+}
+.out i{
+    translate: 122px;
+    color: #ab8a62;
+}
+.adults{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 21px;
+    width: 38%;
+    translate: 30px;
+    margin-top: 20px;
+}
+.adults i{
+    translate: 70px;
+    color: #ab8a62;
+}
+.child{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 21px;
+    width: 38%;
+    translate: 222px;
+    margin-top: -60px !important;
+}
+.child i{
+    translate: 50px;
+    color: #ab8a62;
+}
+.booking-3 button{
+    margin-top: 30px;
+    padding: 20px;
+    width: 82%;
+    translate: 30px;
+    background-color: #8b6332;
+    color: white;
+    border: solid 1px #8b6332;
+    letter-spacing: 2px;
+}
+.booking-3 button:hover{
+    background-color: rgb(44, 44, 44);
+    border: solid 1px rgb(44, 44, 44);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.logo-2{
+    background-image: url(5.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 15%;
+    translate: 100px;
+    margin-top: -75px !important;
+    cursor: pointer;
+}
+.logo-3{
+    background-image: url(3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 18%;
+    translate: 300px;
+    margin-top: -90px !important;
+    cursor: pointer;
+}
+.logo-4{
+    background-image: url(1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60px;
+    width: 14%;
+    translate: 530px;
+    margin-top: -85px !important;
+    cursor: pointer;
+}
+.footer{
+    background-color: rgb(32, 32, 32);
+    margin-top: 150px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.footer-1{
+    padding: 80px;
+    translate: 30px;
+}
+.footer-1 h2{
+    color: rgb(218, 216, 216);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+}
+.footer-1 p{
+    color: rgb(151, 150, 150);
+    font-size: 15px;
+    line-height: 25px;
+    margin-top: 20px;
+}
+.footer-1 button{
+    height: 45px;
+    width: 12%;
+    font-size: 15px;
+    color: rgb(151, 150, 150);
+    background-color: rgb(39, 39, 39);
+    border: solid 1px rgb(39, 39, 39);
+    margin-top: 30px;
+}
+.footer-1 button i{
+    translate: 20px;
+    font-size: 15px;
+}
+.footer-2{
+    align-self: center;
+    margin-top: -280px !important;
+}
+.footer-2 h2{
+    color: rgb(218, 216, 216);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+}
+.pp{
+    padding-top: 20px;  
+    color: rgb(151, 150, 150);
+    font-size: 15px;
+    line-height: 25px;
+}
+.footer-3{
+    align-self: flex-end;
+    margin-top: -200px !important;
+    translate: -200px;
+}
+.footer-3 h2{
+    color: rgb(218, 216, 216);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+}
+.footer-3 p{
+    color: rgb(151, 150, 150);
+    font-size: 15px;
+    line-height: 25px;
+    margin-top: 20px;
+}
+.footer-3 h3{
+    padding-top: 20px;
+    color: rgb(151, 150, 150);
+    font-size: 25px;
+}
+.footer-3 h4{
+    padding-top: 20px;
+    color: rgb(151, 150, 150);
+    text-decoration: underline;
+}
+.icon-3{
+    padding-top: 20px;
+    font-size: 16px;
+    color: white;
+    letter-spacing: 5px;
+}
+.fa-instagram:hover{ 
+    color: #8b6332;
+    cursor: pointer;
+}
+.fa-x-twitter:hover{ 
+    color: #8b6332;
+    cursor: pointer;
+}
+.fa-sack-xmark:hover{ 
+    color: #8b6332;
+    cursor: pointer;
+}
+.fa-facebook-f:hover{ 
+    color: #8b6332;
+    cursor: pointer;
+}
+.fa-tiktok:hover{ 
+    color: #8b6332;
+    cursor: pointer;
+}
+footer{
+    background-color: rgb(27, 27, 27);
+    color: rgb(151, 150, 150);
+    font-size: 13px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
